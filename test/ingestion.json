@@ -1,0 +1,6 @@
+{
+	inputPath:"/home/vihit/Desktop/ingestion/test/",
+	fileNameRule:"(.)+.log",
+	outputPath: "/user/vihit/ingestionLog/",
+	archivePath:"/home/vihit/Desktop/ingestion/archive/"
+}
