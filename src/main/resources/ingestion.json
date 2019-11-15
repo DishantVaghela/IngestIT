@@ -1,0 +1,6 @@
+{
+	"inputPath": "/home/vihit/Desktop/IngestionITTests/testInput",
+	"outputPath": "/user/vihit/output",
+	"fileNameRule": "f(.)+",
+	"archivePath": "/home/vihit/Desktop/IngestionITTests/archive"
+}
