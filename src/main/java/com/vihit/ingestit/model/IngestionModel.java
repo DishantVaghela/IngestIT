@@ -1,4 +1,4 @@
-package com.vihit.ingestIT.model;
+package com.vihit.ingestit.model;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.vihit.ingestIT.config;
+package com.vihit.ingestit.config;
 
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Files;
@@ -6,8 +6,8 @@ import java.nio.file.Paths;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.vihit.ingestIT.model.IngestionModel;
-import com.vihit.ingestIT.util.Logger;
+import com.vihit.ingestit.model.IngestionModel;
+import com.vihit.ingestit.util.Logger;
 
 public class ConfigReader {
 

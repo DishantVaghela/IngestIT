@@ -1,4 +1,4 @@
-package com.vihit.ingestIT.util;
+package com.vihit.ingestit.util;
 
 public class Constants {
 	

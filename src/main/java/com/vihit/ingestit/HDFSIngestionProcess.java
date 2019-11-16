@@ -1,10 +1,11 @@
-package com.vihit.ingestIT;
+package com.vihit.ingestit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.hadoop.conf.Configuration;
 
-import com.vihit.ingestIT.model.IngestionModel;
-import com.vihit.ingestIT.util.*;
+import com.vihit.ingestit.model.IngestionModel;
+import com.vihit.ingestit.util.*;
+
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
