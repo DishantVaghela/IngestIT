@@ -1,51 +1,54 @@
 package com.vihit.ingestit;
 
-import com.vihit.ingestit.metrics.*;
 import javax.management.*;
-
+import java.lang.management.ManagementFactory;
 import com.vihit.ingestit.config.ConfigReader;
 import com.vihit.ingestit.model.IngestionModel;
 import com.vihit.ingestit.util.*;
-
-import java.lang.management.ManagementFactory;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.nio.file.Path;
-import java.util.List;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
+import com.vihit.ingestit.metrics.*;
 
 public class IngestionService {
 
-	private ThreadPoolExecutor ingestionThreadPool;
-	private LinkedBlockingQueue<Runnable> linkedQueue;
+	// private LinkedBlockingQueue<Runnable> linkedQueue;
 	private String sourcePath = null;
-	private IngestionModel configModel = null;
+	private IngestionModel ingestionModel = null;
 	private Thread pollingThread;
 	private static String MODULE = "INGESTION-SERVICE";
 	public static Long startTime = System.currentTimeMillis();
 	private static String applicationName;
+	CommonResourceManager commonResourceManager = CommonResourceManager.getInstance();
+	Ingestor ingestor = new Ingestor();
 
-	public static void main(String[] args) throws MalformedObjectNameException, InstanceAlreadyExistsException,
-			MBeanRegistrationException, NotCompliantMBeanException, InstanceNotFoundException {
-
-		IngestionService ingestionService = new IngestionService();
-		if (args != null && args.length > 1 && args[0].trim().length() > 0 && args[1].trim().length() > 0) {
-			ingestionService.sourcePath = args[0];
-			applicationName = args[1].trim();
-		} else {
-			Logger.logError(MODULE, "Please provide the resources folder path to IngestIT");
-			System.exit(1);
-		}
-		SystemStatus systemStatus = new SystemStatus();
-		MBeanServer platformMBeanServer = ManagementFactory.getPlatformMBeanServer();
-		ObjectName objectName = new ObjectName("com.vihit.ingestit:name=" + applicationName);
-		platformMBeanServer.registerMBean(systemStatus, objectName);
+	public static void main(String[] args) {
 
 		try {
+			IngestionService ingestionService = new IngestionService();
+			if (args != null && args.length > 1 && args[0].trim().length() > 0 && args[1].trim().length() > 0) {
+				Logger.logInfo(MODULE, "Starting IngestIT");
+				ingestionService.sourcePath = args[0];
+				applicationName = args[1].trim();
+			} else {
+				Logger.logError(MODULE, "Please provide the resources folder path to IngestIT");
+				System.exit(1);
+			}
+
+			SystemStatus systemStatus = new SystemStatus();
+			MBeanServer platformMBeanServer = ManagementFactory.getPlatformMBeanServer();
+			ObjectName objectName = new ObjectName("com.vihit.ingestit:name=" + applicationName);
+
+			platformMBeanServer.registerMBean(systemStatus, objectName);
 			ingestionService.startService();
+
+		} catch (MalformedObjectNameException malformedObjectNameException) {
+
+		} catch (InstanceAlreadyExistsException instanceAlreadyExistsException) {
+
+		} catch (MBeanRegistrationException mBeanRegistrationException) {
+
+		} catch (NotCompliantMBeanException notCompliantMBeanException) {
+
+		} catch (InstanceNotFoundException instanceNotFoundException) {
+
 		} catch (Exception e) {
 			Logger.logError(MODULE, "Some error occurred : " + e);
 		}
@@ -54,19 +57,23 @@ public class IngestionService {
 	private void startService() throws Exception {
 		init();
 
-		if (configModel != null) {
+		if (ingestionModel != null) {
 			pollingThread = new Thread(new IngestionPoller());
 			pollingThread.setPriority(6);
 			pollingThread.start();
 
-			linkedQueue = new LinkedBlockingQueue<Runnable>();
-			ingestionThreadPool = new ThreadPoolExecutor(2, 2, 3600000L, TimeUnit.SECONDS, linkedQueue);
+			// linkedQueue = new LinkedBlockingQueue<Runnable>();
+			// ingestionThreadPool = new ThreadPoolExecutor(2, 2, 3600000L,
+			// TimeUnit.SECONDS, linkedQueue);
+			// ingestionThreadPool = (ThreadPoolExecutor) Executors.newFixedThreadPool(10);
 		}
 	}
 
 	private void init() {
-		configModel = ConfigReader
+		ingestionModel = ConfigReader
 				.readIngestionModel(sourcePath + Constants.PATH_SEPERATOR + Constants.INGESTION_CONFIG_NAME);
+		commonResourceManager.setConnectionModel(ConfigReader
+				.readConnectionModel(sourcePath + Constants.PATH_SEPERATOR + Constants.CONNECTION_CONFIG_NAME));
 	}
 
 	private class IngestionPoller implements Runnable {
@@ -74,11 +81,9 @@ public class IngestionService {
 		public void run() {
 			try {
 				while (true) {
-					prepareDivideIngest();
-					System.out.println("Will be back in a minute");
-					System.out.println("Files ingested: " + HDFSIngestionProcess.filesIngested);
-					System.out.println("Files errored: " + HDFSIngestionProcess.filesErrored);
-					Thread.sleep(60000);
+					ingestor.executeIngestionModel(ingestionModel);
+					System.out.println("Will be back in a few minutes");
+					Thread.sleep(120 * 1000);
 				}
 			} catch (InterruptedException interruptedException) {
 				interruptedException.printStackTrace();
@@ -86,48 +91,6 @@ public class IngestionService {
 				e.printStackTrace();
 			}
 		}
-	}
-
-	private void prepareDivideIngest() {
-		List<Path> fileList = listFiles(configModel.getInputPath(), configModel.getFileNameRule());
-		int maxIngestionSize = 100;
-		int subListSize = 10;
-		int filesInLastSubList;
-		if (fileList != null && fileList.size() > 0) {
-			if (maxIngestionSize > fileList.size())
-				maxIngestionSize = fileList.size();
-			List<Path> mainSubList = fileList.subList(0, maxIngestionSize);
-
-			int totalSubList = maxIngestionSize / 10;
-			filesInLastSubList = maxIngestionSize % 10;
-			if (filesInLastSubList != 0) {
-				totalSubList++;
-			}
-			for (int i = 0; i < totalSubList; i++) {
-				List<Path> subList;
-				if (i == totalSubList - 1 && filesInLastSubList != 0) {
-					subList = mainSubList.subList(subListSize * i, filesInLastSubList + subListSize * i);
-				} else {
-					subList = mainSubList.subList(subListSize * i, subListSize + subListSize * i);
-				}
-				if (subList.size() > 0) {
-					ingestionThreadPool.execute(new HDFSIngestionProcess(subList, configModel));
-					System.out.println("Creating thread with list size : " + subList.size());
-				}
-			}
-		}
-	}
-
-	public static List<Path> listFiles(String inputPath, final String fileNameRules) {
-		List<Path> fileList = null;
-		try {
-			fileList = Files.walk(Paths.get(inputPath))
-					.filter(f -> Files.isRegularFile(f) && f.getFileName().toString().matches(fileNameRules))
-					.collect(Collectors.toList());
-		} catch (Exception ex) {
-			Logger.logError(MODULE, "Error occurred while accessing input folder : " + inputPath);
-		}
-		return fileList;
 	}
 
 }

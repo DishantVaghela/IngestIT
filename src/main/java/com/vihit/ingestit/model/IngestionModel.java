@@ -1,50 +1,24 @@
 package com.vihit.ingestit.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 public class IngestionModel implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	private String inputPath;
-	private String outputPath;
-	private String fileNameRule;
-	private String archivePath;
+	private ArrayList<Pipeline> pipelines;
 
-	public String getArchivePath() {
-		return archivePath;
+	public ArrayList<Pipeline> getPipelines() {
+		return pipelines;
 	}
 
-	public void setArchivePath(String archivePath) {
-		this.archivePath = archivePath;
-	}
-
-	public String getFileNameRule() {
-		return fileNameRule;
-	}
-
-	public void setFileNameRule(String fileNameRule) {
-		this.fileNameRule = fileNameRule;
-	}
-
-	public String getInputPath() {
-		return inputPath;
-	}
-
-	public void setInputPath(String inputPath) {
-		this.inputPath = inputPath;
-	}
-
-	public String getOutputPath() {
-		return outputPath;
-	}
-
-	public void setOutputPath(String outputPath) {
-		this.outputPath = outputPath;
+	public void setPipelines(ArrayList<Pipeline> pipelines) {
+		this.pipelines = pipelines;
 	}
 
 	@Override
 	public String toString() {
-		return "IngestionModel{" + "inputPath='" + inputPath + '\'' + ", outputPath='" + outputPath + '\''
-				+ ", fileNameRule='" + fileNameRule + '\'' + ", archivePath='" + archivePath + '\'' + '}';
+		return "IngestionModel [pipelines=" + pipelines + "]";
 	}
+
 }

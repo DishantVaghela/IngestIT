@@ -1,0 +1,10 @@
+{
+	"connections" : [
+		{
+			"name" : "hdfsConnection",
+			"props" : {
+				"fs.defaultFS" : "hdfs://localhost:9000"
+			}
+		}
+	]
+}

@@ -1,6 +1,19 @@
 {
-	"inputPath": "/home/vihit/Desktop/IngestionITTests/testInput",
-	"outputPath": "/user/vihit/output",
-	"fileNameRule": "f(.)+",
-	"archivePath": "/home/vihit/Desktop/IngestionITTests/archive"
+	"pipelines":[
+		{
+			"in" : {
+				"type" : "localFS",
+				"maxIngestionSize" : 100,
+				"filesPerThread" : 10,
+				"input": "/home/vihit/Desktop/IngestionITTests/testInput",
+				"fileNameRule": "files(.)+",
+				"archive": "/home/vihit/Desktop/IngestionITTests/archive"
+			},
+			"out": {
+				"type" : "hdfs",
+				"connection" : "hdfsConnection",
+				"output": "/user/vihit/output"	
+			}
+		}
+	]
 }
