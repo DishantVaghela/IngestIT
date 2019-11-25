@@ -1,6 +1,6 @@
 package com.vihit.ingestit.metrics;
 
-import com.vihit.ingestit.HDFSIngestion;
+import com.vihit.ingestit.process.*;
 import com.vihit.ingestit.IngestionService;
 
 public class SystemStatus implements SystemStatusMBean {
@@ -23,6 +23,26 @@ public class SystemStatus implements SystemStatusMBean {
 		return HDFSIngestion.filesErrored.intValue();
 	}
 
+	@Override
+	public Integer getNumberOfKafkaFilesIngested() {
+		return KafkaFilesIngestion.filesIngested.intValue();
+	}
+
+	@Override
+	public Integer getNumberOfKafkaFilesRejected() {
+		return KafkaFilesIngestion.filesErrored.intValue();
+	}
+	
+	@Override
+	public Integer getNumberOfKafkaRecordsIngested() {
+		return KafkaFilesIngestion.recordsIngested.intValue();
+	}
+
+	@Override
+	public Integer getNumberOfKafkaRecordsRejected() {
+		return KafkaFilesIngestion.recordsErrored.intValue();
+	}
+	
 	@Override
 	public Long getIngestionStartTime() {
 		return ingestionStartTime;

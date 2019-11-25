@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import com.vihit.ingestit.model.*;
 import com.vihit.ingestit.pipeline.LocalToHDFS;
+import com.vihit.ingestit.pipeline.LocalToKafka;
 import com.vihit.ingestit.util.CommonResourceManager;
 import com.vihit.ingestit.util.Logger;
 
@@ -28,7 +29,11 @@ public class Ingestor {
 			case "hdfs":
 				new LocalToHDFS(pipeline).executePipeline();
 				break;
-			default : Logger.logError(MODULE, "Unsupported Pipeline");
+			case "kafka":
+				new LocalToKafka(pipeline).executePipeline();
+				break;
+			default:
+				Logger.logError(MODULE, "Unsupported Pipeline");
 			}
 			break;
 		}

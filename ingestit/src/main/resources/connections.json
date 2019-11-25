@@ -5,6 +5,12 @@
 			"props" : {
 				"fs.defaultFS" : "hdfs://localhost:9000"
 			}
+		},
+		{
+			"name" : "kafkaConnection",
+			"props" : {
+				"bootstrap.servers" : "localhost:9092"
+			}
 		}
 	]
 }

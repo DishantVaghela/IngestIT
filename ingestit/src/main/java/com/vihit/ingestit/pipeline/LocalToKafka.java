@@ -9,10 +9,11 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.stream.Collectors;
 
 import com.vihit.ingestit.process.HDFSIngestion;
+import com.vihit.ingestit.process.KafkaFilesIngestion;
 import com.vihit.ingestit.model.*;
 import com.vihit.ingestit.util.Logger;
 
-public class LocalToHDFS {
+public class LocalToKafka {
 
 	private static final String MODULE = "LocalToHDFSPipeline";
 	private ThreadPoolExecutor ingestionThreadPool;
@@ -20,7 +21,7 @@ public class LocalToHDFS {
 	int maxIngestionSize;
 	int filesPerThread;
 	
-	public LocalToHDFS(Pipeline pipeline) {
+	public LocalToKafka(Pipeline pipeline) {
 		this.pipeline = pipeline;
 	}
 
@@ -79,7 +80,7 @@ public class LocalToHDFS {
 				subList = mainFileList.subList(filesPerThread * i, filesPerThread + filesPerThread * i);
 			}
 			if (subList.size() > 0) {
-				ingestionThreadPool.execute(new HDFSIngestion(subList, pipeline));
+				ingestionThreadPool.execute(new KafkaFilesIngestion(subList, pipeline));
 				System.out.println("Creating thread with list size : " + subList.size());
 			}
 		}

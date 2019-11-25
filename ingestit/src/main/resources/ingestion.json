@@ -14,6 +14,21 @@
 				"connection" : "hdfsConnection",
 				"output": "/user/vihit/output"	
 			}
+		},
+		{
+			"in" : {
+				"type" : "localFS",
+				"maxIngestionSize" : 1000,
+				"filesPerThread" : 1000,
+				"input": "/home/vihit/Desktop/IngestionITTests/testInput",
+				"fileNameRule": "us-50(.)+",
+				"archive": "/home/vihit/Desktop/IngestionITTests/archive"
+			},
+			"out": {
+				"type" : "kafka",
+				"connection" : "kafkaConnection",
+				"topic": "ingestIT"	
+			}
 		}
 	]
 }

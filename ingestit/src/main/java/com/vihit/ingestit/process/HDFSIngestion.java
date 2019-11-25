@@ -1,4 +1,4 @@
-package com.vihit.ingestit;
+package com.vihit.ingestit.process;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.hadoop.conf.Configuration;

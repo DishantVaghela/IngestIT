@@ -1,4 +1,4 @@
-package com.vihit.ingestit;
+package com.vihit.ingestit.process;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

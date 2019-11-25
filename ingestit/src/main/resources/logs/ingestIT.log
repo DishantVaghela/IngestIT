@@ -1,202 +1,1203 @@
-2019-11-21 14:07:59 INFO  root:26 - [ INGESTION-SERVICE ] : Starting IngestIT
-2019-11-21 14:25:58 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-11-21 14:25:59 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files53 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files51 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files65 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files72 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files13 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files25 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files30 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files37 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files79 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files68 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files25 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files27 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files37 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files13 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files39 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files15 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files30 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files68 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files4 to /user/vihit/output
-2019-11-21 14:26:00 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files78 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files79 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files80 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files65 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files75 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files72 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files27 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files51 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files32 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files83 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files61 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files53 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files64 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files39 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files41 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files4 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files6 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files80 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files67 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files15 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files17 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files75 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files86 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files78 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files92 to /user/vihit/output
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files41 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:01 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files43 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files17 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files19 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files86 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files98 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files92 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files100 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files67 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files77 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files43 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files45 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files64 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files74 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files32 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files83 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files95 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files61 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files34 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files6 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files8 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files71 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files100 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files1 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files77 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files91 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files45 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files50 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files95 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files20 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files74 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files85 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files91 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files88 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files8 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files19 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files12 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files22 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files1 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files2 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files98 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files70 to /user/vihit/output
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files50 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:02 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files57 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files85 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files97 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files88 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files12 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files89 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files22 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files14 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files24 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files34 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files36 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files71 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files82 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files20 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files63 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files57 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files69 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files14 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files16 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files89 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files90 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files2 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files3 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files82 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files94 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files70 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files63 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files55 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files73 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files90 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files69 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files49 to /user/vihit/output
-2019-11-21 14:26:03 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files81 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files16 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files18 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files97 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files24 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files58 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files26 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files36 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files38 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files3 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files5 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files73 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files84 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files26 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files31 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files58 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files59 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files5 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files7 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files84 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files96 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files94 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files9 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files55 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files66 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files81 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files93 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files31 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files33 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files7 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files11 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files18 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files49 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files21 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files56 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files38 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files40 to /user/vihit/output
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files9 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:04 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files10 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files93 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files66 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files76 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files33 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files35 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files59 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files60 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files56 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files40 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files42 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files96 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files28 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files76 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files87 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files60 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files48 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files35 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files11 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files42 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files44 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files28 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files29 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files10 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files46 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files21 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files23 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files87 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files99 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files48 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files54 to /user/vihit/output
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files44 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:05 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files47 to /user/vihit/output
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files29 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files23 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files54 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files99 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files47 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files46 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files52 to /user/vihit/output
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files52 to /home/vihit/Desktop/IngestionITTests/archive
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files62 to /user/vihit/output
-2019-11-21 14:26:06 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files62 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:31 INFO  root:26 - [ INGESTION-SERVICE ] : Starting IngestIT
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:31 INFO  ProducerConfig:279 - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = IngestIT
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50069.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50050.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50020.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50089.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50010.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50040.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50079.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50060.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50030.csv to ingestIT
+2019-11-25 20:50:32 INFO  AppInfoParser:109 - Kafka version : 2.1.0
+2019-11-25 20:50:32 INFO  AppInfoParser:110 - Kafka commitId : eec43959745f444f
+2019-11-25 20:50:32 WARN  AppInfoParser:66 - Error registering AppInfo mbean
+javax.management.InstanceAlreadyExistsException: kafka.producer:type=app-info,id=IngestIT
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.kafka.common.utils.AppInfoParser.registerAppInfo(AppInfoParser.java:62)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:425)
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:301)
+	at com.vihit.ingestit.process.KafkaFilesIngestion.run(KafkaFilesIngestion.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-25 20:50:32 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-500.csv to ingestIT
+2019-11-25 20:50:33 INFO  Metadata:285 - Cluster ID: 9z083DbARq-LmV-xAlhztg
+2019-11-25 20:50:33 INFO  Metadata:285 - Cluster ID: 9z083DbARq-LmV-xAlhztg
+2019-11-25 20:50:33 INFO  Metadata:285 - Cluster ID: 9z083DbARq-LmV-xAlhztg
+2019-11-25 20:50:33 INFO  Metadata:285 - Cluster ID: 9z083DbARq-LmV-xAlhztg
+2019-11-25 20:50:33 INFO  Metadata:285 - Cluster ID: 9z083DbARq-LmV-xAlhztg
+2019-11-25 20:50:33 INFO  Metadata:285 - Cluster ID: 9z083DbARq-LmV-xAlhztg
+2019-11-25 20:50:33 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50060.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50040.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50079.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-500.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50089.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50020.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50069.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50050.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50061.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50051.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50041.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50021.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50080.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5001.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50090.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50030.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50070.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50031.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50010.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50011.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50080.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50081.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50041.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50042.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50090.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50091.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5001.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5002.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50070.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50071.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50051.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50052.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50011.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50012.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50021.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50022.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50061.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50062.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50091.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50092.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50081.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50082.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50031.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50032.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50042.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50043.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5002.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5003.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50071.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50072.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50062.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50063.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50022.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50023.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50012.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50072.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50013.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50073.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50092.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50093.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50043.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50044.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50052.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50053.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50063.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-500100.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50013.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50014.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5003.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50023.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5004.csv to ingestIT
+2019-11-25 20:50:33 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50024.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50082.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50083.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50073.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50074.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50053.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50054.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50032.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50033.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-500100.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50064.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50044.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50045.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50093.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50094.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50014.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50015.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5004.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5005.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50024.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50025.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50074.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50075.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50054.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50055.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50015.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50033.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50034.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50064.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50065.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50045.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50016.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5005.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5006.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50094.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50095.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50083.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50084.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50046.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50075.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50076.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50034.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50035.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5006.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50046.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50047.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5007.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50065.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50066.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50025.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50026.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50076.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50077.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50084.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50085.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50016.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50017.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50095.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50096.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50055.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50056.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5007.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5008.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50035.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50036.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50066.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50067.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50096.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50097.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50036.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50026.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50027.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50037.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50056.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50085.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50086.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50057.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50077.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50078.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50037.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50038.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5008.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50067.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-5009.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50068.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50068.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50086.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50087.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50047.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50048.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50097.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50098.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50078.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-5009.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50038.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50039.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50057.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50087.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50088.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50027.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50028.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50058.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50028.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50029.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50029.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50017.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50018.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50098.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50088.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50039.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50058.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50059.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50048.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50049.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50018.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Ingesting file us-50019.csv to ingestIT
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50049.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50059.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:34 INFO  root:26 - [ KAFKA-FILES-INGESTION ] : Archiving file us-50019.csv to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files71 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files91 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files31 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files61 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files21 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files11 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files41 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files1 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files81 to /user/vihit/output
+2019-11-25 20:50:37 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files51 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files61 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files62 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files41 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files91 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files51 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files52 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files81 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files82 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files42 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files92 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files11 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files12 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files71 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files72 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files1 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files2 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files21 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files22 to /user/vihit/output
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files31 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:41 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files32 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files42 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files43 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files52 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files53 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files72 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files73 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files22 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files23 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files92 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files93 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files32 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files33 to /user/vihit/output
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files2 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:42 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files3 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files82 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files83 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files23 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files24 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files62 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files63 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files93 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files94 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files12 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files13 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files43 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files44 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files33 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files34 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files53 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files54 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files73 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files74 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files3 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files4 to /user/vihit/output
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files83 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:43 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files84 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files24 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files25 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files63 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files64 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files64 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files65 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files94 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files95 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files13 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files14 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files34 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files35 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files44 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files45 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files65 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files66 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files54 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files55 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files74 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files75 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files4 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files5 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files95 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files96 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files84 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files85 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files25 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files26 to /user/vihit/output
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files45 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:44 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files46 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files75 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files76 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files14 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files15 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files5 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files6 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files96 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files97 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files35 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files36 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files55 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files56 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files76 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files66 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files77 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files67 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files85 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files86 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files46 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files47 to /user/vihit/output
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files26 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:45 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files27 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files56 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files57 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files86 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files87 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files47 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files48 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files6 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files15 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files7 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files16 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files97 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files36 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files98 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files37 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files67 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files68 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files77 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files78 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files27 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files28 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files7 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files8 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files98 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files99 to /user/vihit/output
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files57 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:46 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files58 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files87 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files88 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files48 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files49 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files16 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files17 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files37 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files38 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files68 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files69 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files38 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files39 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files78 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files79 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files28 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files29 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files8 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files9 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files58 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files59 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files99 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files100 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files88 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files89 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files17 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files69 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files18 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files70 to /user/vihit/output
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files49 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:47 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files50 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files9 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files10 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files79 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files80 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files29 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files30 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files39 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files40 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files89 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files90 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files10 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files80 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files40 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files100 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files59 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files60 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files70 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files18 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files19 to /user/vihit/output
+2019-11-25 20:50:48 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files50 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:49 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files60 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:49 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files30 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:49 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files90 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:49 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files19 to /home/vihit/Desktop/IngestionITTests/archive
+2019-11-25 20:50:49 INFO  root:26 - [ HDFS-INGESTION ] : Ingesting file files20 to /user/vihit/output
+2019-11-25 20:50:50 INFO  root:26 - [ HDFS-INGESTION ] : Archiving file files20 to /home/vihit/Desktop/IngestionITTests/archive
