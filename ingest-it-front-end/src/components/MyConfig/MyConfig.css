@@ -1,0 +1,10 @@
+.blockItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.blockItem .item {
+  padding-left: 20px;
+}
